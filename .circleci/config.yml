@@ -11,13 +11,8 @@ jobs:
             - "f3:7d:c3:fc:08:ab:fe:94:79:37:bd:0b:4d:07:1f:02"
       - checkout
       - run:
-<<<<<<< HEAD
-          name: Install
+          name: "Install"
           command: yarn install
-=======
-         name: Install
-         command: yarn install
->>>>>>> 6e5b54ddc2dac4ac9f7e4c12e00c13da50e58715
       - run:
-          name: Build
+          name: "Build"
           command: yarn build
